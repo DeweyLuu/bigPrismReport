@@ -38,6 +38,7 @@ function entireQuery() {
         .or('Project', '=', '/project/49998887731') //prism
         .or('Project', '=', '/project/55635571848') //db migration
         .or('Project', '=', '/project/50982923609') //core
+        .or('Project', '=', '/project/56200604007') //prism dev
         .and('Epic.FormattedID', '!=', 'T100')
         .and('Name', '!contains', 'scrum management')
         .and('c_ReleasePriority', '=', 'P1: Critical System Change')
