@@ -31,7 +31,7 @@ function entireQuery() {
         'ScheduleState', 'c_KanbanState', 'Tasks', 'Blocked', 'BlockedReason', 'c_ReleasePriority', 
         'PlanEstimate', 'Projects', 'c_PreviousEstimate', 'State', 'c_StoryRank', 'c_EpicRank', 'c_TPO', 'Milestones', 'Owner',
         'LeafStoryPlanEstimateTotal', 'AcceptedLeafStoryPlanEstimateTotal', 'LeafStoryCount', 'UnEstimatedLeafStoryCount',
-        'AcceptedLeafStoryCount', 'Ready', 'Release', 'AcceptedDate', 'c_GAPS'],
+        'AcceptedLeafStoryCount', 'Ready', 'Release', 'AcceptedDate', 'c_GAPS', 'c_Architect'],
         /*        
         fetch: ['Name', 'c_GroomingState', 'Epic', 'FormattedID', 'Project', 'Parent', 'Iteration',
         'ScheduleState', 'c_KanbanState', 'Tasks', 'Blocked', 'BlockedReason', 'c_ReleasePriority', 
@@ -67,7 +67,7 @@ function entireQuery() {
             'Epic.LeafStoryCount', 'Epic.UnEstimatedLeafStoryCount', 'Epic.AcceptedLeafStoryCount', 'c_GroomingState',
             'ScheduleState', 'Iteration.Name', 'Iteration.State', 'Ready', 'Project.Name', 'Owner._refObjectName', 'Epic.c_TPO', 
             'Release.Name', 'c_StoryRank', 'FormattedID', 'Name', 'c_ReleasePriority', 'c_KanbanState', 'Parent.Name', 'Blocked', 
-            'BlockedReason', 'Epic.Milestones._tagsNameArray[0].Name'];
+            'BlockedReason', 'Epic.Milestones._tagsNameArray[0].Name', 'c_TPO', 'c_Architect'];
             /*
             var fields = ['Theme.FormattedID', 'Theme.Name', 'Theme.State.Name','Theme.c_Projects', 'Theme.c_ReleasePriority', 
             'Epic.c_EpicRank', 'Epic.FormattedID', 'Epic.c_ReleasePriority', 'Epic.Name', 'Epic.State.Name', 'PlanEstimate', 
