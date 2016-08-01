@@ -107,10 +107,7 @@ function entireQuery() {
             
             json2csv({data: bigStories, fields: fields}, function(err, csv) {
                 if (err) console.log(err);
-                //fs.writeFile('ParentedStoriesReportOne.csv', csv, function(err) {
-                fs.writeFile('filteredBigReport' + theTimeStamp + '.csv', csv, function(err) {
-                //fs.writeFile('filteredBigReportWithPH' + theTimeStamp + '.csv', csv, function(err) {
-                //fs.writeFile('BigOverallPrismReportApr19.csv', csv, function(err) {   
+                fs.writeFile('filteredBigReport' + theTimeStamp + '.csv', csv, function(err) { 
                     if(err) throw err;
                     console.log('file saved!');
                 })
